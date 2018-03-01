@@ -26,7 +26,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Adding a Stylesheet](#adding-a-stylesheet)
 - [Post-Processing CSS](#post-processing-css)
 - [Adding a CSS Preprocessor (Sass, Less etc.)](#adding-a-css-preprocessor-sass-less-etc)
-- [Adding Images, Fonts, and Files](#adding-images-fonts-and-files)
+- [Adding Images, Fonts, and Files](#adding-Images-fonts-and-files)
 - [Using the `public` Folder](#using-the-public-folder)
   - [Changing the HTML](#changing-the-html)
   - [Adding Assets Outside of the Module System](#adding-assets-outside-of-the-module-system)
@@ -641,11 +641,11 @@ Now running `npm start` and `npm run build` also builds Sass files.
 
 ## Adding Images, Fonts, and Files
 
-With Webpack, using static assets like images and fonts works similarly to CSS.
+With Webpack, using static assets like Images and fonts works similarly to CSS.
 
 You can **`import` a file right in a JavaScript module**. This tells Webpack to include that file in the bundle. Unlike CSS imports, importing a file gives you a string value. This value is the final path you can reference in your code, e.g. as the `src` attribute of an image or the `href` of a link to a PDF.
 
-To reduce the number of requests to the server, importing images that are less than 10,000 bytes returns a [data URI](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) instead of a path. This applies to the following file extensions: bmp, gif, jpg, jpeg, and png. SVG files are excluded due to [#1153](https://github.com/facebookincubator/create-react-app/issues/1153).
+To reduce the number of requests to the server, importing Images that are less than 10,000 bytes returns a [data URI](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) instead of a path. This applies to the following file extensions: bmp, gif, jpg, jpeg, and png. SVG files are excluded due to [#1153](https://github.com/facebookincubator/create-react-app/issues/1153).
 
 Here is an example:
 
@@ -663,7 +663,7 @@ function Header() {
 export default Header;
 ```
 
-This ensures that when the project is built, Webpack will correctly move the images into the build folder, and provide us with correct paths.
+This ensures that when the project is built, Webpack will correctly move the Images into the build folder, and provide us with correct paths.
 
 This works in CSS too:
 
@@ -677,7 +677,7 @@ Webpack finds all relative module references in CSS (they start with `./`) and r
 
 Please be advised that this is also a custom feature of Webpack.
 
-**It is not required for React** but many people enjoy it (and React Native uses a similar mechanism for images).<br>
+**It is not required for React** but many people enjoy it (and React Native uses a similar mechanism for Images).<br>
 An alternative way of handling static assets is described in the next section.
 
 ## Using the `public` Folder
@@ -694,7 +694,7 @@ The `<script>` tag with the compiled code will be added to it automatically duri
 You can also add other assets to the `public` folder.
 
 Note that we normally encourage you to `import` assets in JavaScript files instead.
-For example, see the sections on [adding a stylesheet](#adding-a-stylesheet) and [adding images and fonts](#adding-images-fonts-and-files).
+For example, see the sections on [adding a stylesheet](#adding-a-stylesheet) and [adding Images and fonts](#adding-Images-fonts-and-files).
 This mechanism provides a number of benefits:
 
 * Scripts and stylesheets get minified and bundled together to avoid extra network requests.
@@ -734,11 +734,11 @@ Keep in mind the downsides of this approach:
 
 ### When to Use the `public` Folder
 
-Normally we recommend importing [stylesheets](#adding-a-stylesheet), [images, and fonts](#adding-images-fonts-and-files) from JavaScript.
+Normally we recommend importing [stylesheets](#adding-a-stylesheet), [Images, and fonts](#adding-Images-fonts-and-files) from JavaScript.
 The `public` folder is useful as a workaround for a number of less common cases:
 
 * You need a file with a specific name in the build output, such as [`manifest.webmanifest`](https://developer.mozilla.org/en-US/docs/Web/Manifest).
-* You have thousands of images and need to dynamically reference their paths.
+* You have thousands of Images and need to dynamically reference their paths.
 * You want to include a small script like [`pace.js`](http://github.hubspot.com/pace/docs/welcome/) outside of the bundled code.
 * Some library may be incompatible with Webpack and you have no other option but to include it as a `<script>` tag.
 
@@ -1862,7 +1862,7 @@ JavaScript console.
 
 1. By default, the generated service worker file will not intercept or cache any
 cross-origin traffic, like HTTP [API requests](#integrating-with-an-api-backend),
-images, or embeds loaded from a different domain. If you would like to use a
+Images, or embeds loaded from a different domain. If you would like to use a
 runtime caching strategy for those requests, you can [`eject`](#npm-run-eject)
 and then configure the
 [`runtimeCaching`](https://github.com/GoogleChrome/sw-precache#runtimecaching-arrayobject)
