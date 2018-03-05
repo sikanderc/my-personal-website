@@ -9,6 +9,7 @@ import Footer from './Components/Footer'
 import arrow from './Images/arrow.gif'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import Instagram from './Components/Instagram'
+import FaceOfCompassion from './Components/FaceOfCompassion'
 
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <div className="App">
           <NavBar />
+          <FaceOfCompassion />
           <Welcome />
           <div className="down-arrow">
           <img src={arrow} alt="Sroll"  width="50px"/>
