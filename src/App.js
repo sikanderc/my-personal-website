@@ -25,14 +25,14 @@ class App extends Component {
           </div>
         <h2 className="heading" id="projects">PROJECTS</h2>
           <Projects />
-        <h2 className="heading" id="work">Instagram</h2>
-          <Instagram />
         <h2 className="heading" id="about">ABOUT</h2>
           <About />
         <h2 className="heading" id="blog">BLOG</h2>
           <Blog />
         <h2 className="heading" id="work">WORK</h2>
           <Work />
+        <h2 className="heading" id="work">Instagram</h2>
+          <Instagram />
         <h2 className="heading" id="footer"></h2>
           <Footer />
       </div>
