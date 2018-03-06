@@ -1,6 +1,8 @@
 .App {
-  background-color: black;
+  background-color: #ffe2d7;
   text-align: center;
+  background: -webkit-linear-gradient(to right, #FFF, #ffe2d7);
+  background: linear-gradient(to right, #FFF, #ffe2d7);
 }
 
 .header h1 {
@@ -16,7 +18,7 @@ h1 {
 h2 {
   font-size: 50px;
   line-height: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 100;
 }
 
@@ -61,7 +63,7 @@ p {
   left: 0;
   right: 0;
   background-color: white;
-  opacity: .9;
+  opacity: .3;
   overflow: hidden;
   width: 100%;
   height:0;
@@ -115,7 +117,7 @@ p {
 }
 
 .heading {
-  color: white
+  color: black
 }
 
 .Welcome {
@@ -160,10 +162,10 @@ p {
 }
 
 .Welcome button:hover {
-    background-color: #000;
+    background-color: #ffe2d7;
     border: 2px solid;
-    border-color: #000;
-    color: white;
+    border-color: #fff;
+    color: black;
 }
 
 .down-arrow {
@@ -192,6 +194,10 @@ p {
 }
 
 .About {
+  background-color: #FFF;
+}
+
+.Instagram {
   background-color: #FFF;
 }
 
@@ -284,7 +290,7 @@ p {
 }
 
 .nav-link:hover:not(.active) {
-  background-color: #D3D3D3;
+  background-color: #ffe2d7;
   color: #16223C;
 }
 
@@ -300,11 +306,9 @@ p {
   text-align: center;
   align-items: center;
   z-index: 500;
-  background: #FFF;
-  background: -webkit-linear-gradient(to right, #FFF, #f1f1f1);
-  background: linear-gradient(to right, #FFF, #f1f1f1);
-  display: grid;
-  grid-template-columns: 10% 30% 50% 10%;
+  background: #ffe2d7;
+  background: -webkit-linear-gradient(to right, #FFF, #ffe2d7);
+  background: linear-gradient(to right, #FFF, #ffe2d7);
 }
 
 .Footer div {
