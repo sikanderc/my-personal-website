@@ -5,7 +5,7 @@ class FaceOfCompassion extends Component {
     return (
       <div className="FaceOfCompassion">
         <div className="youtube">
-          <iframe width="100%" height="700" src="https://www.youtube.com/embed/jBzpkxZet04?rel=0&amp;controls=0&autoplay=0" frameborder="0" allowfullscreen></iframe>
+          <iframe width="100%" height="700" src="https://www.youtube.com/embed/jBzpkxZet04?rel=0&amp;controls=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     );

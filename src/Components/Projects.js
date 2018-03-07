@@ -25,6 +25,8 @@ class Projects extends Component {
             </div>
           </div>
         </a>
+        <br/>
+        <br/>
         <a className="ds3Box" >
           <div className="row align-items-center featured" >
             <div className="col-md-5 offset-md-1 featured-body mt-sm-0" >
@@ -41,6 +43,8 @@ class Projects extends Component {
             </div>
           </div>
         </a>
+        <br/>
+        <br/>
         <a className="puertoBox" >
           <div className="row align-items-center featured" >
             <div className="col-md-5 offset-md-1 featured-body mt-sm-0" >
@@ -49,13 +53,15 @@ class Projects extends Component {
               </header>
               <div className="col-md-5" >
               <img src={puertosupport} className="img-fluid" alt="PuertoSupport" />
-              </div>
+              </div>]
               <p className="puertoInfo" >Web portal for individuals and organizations who intend to help those affected by the 2017 hurricane devastation in Puerto Rico. In collaboration with Elbin Keeppanasseril.</p>
               <p><a href="https://github.com/elbincodes/puerto_rico_support" target="_blank" rel="noopener noreferrer">GitHub Repository<i className="fa fa-github" aria-hidden="true"/></a></p>
               <div className="technologies" >#ruby, #rubyOnRails</div>
             </div>
           </div>
         </a>
+        <br/>
+        <br/>
         <a className="peTinderBox" >
           <div className="row align-items-center featured" >
             <div className="col-md-5 offset-md-1 featured-body mt-sm-0" >
