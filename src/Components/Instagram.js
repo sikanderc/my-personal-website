@@ -9,7 +9,7 @@ class Instagram extends Component {
       <div className="Instagram section">
         <div className="Instagram-item">
           <div id={instafeedTarget}>
-            <Instafeed limit='5' ref='instafeed' resolution='low_resolution' sortBy='most-liked' target={instafeedTarget}
+            <Instafeed limit='20' ref='instafeed' resolution='low_resolution' sortBy='most-liked' target={instafeedTarget}
             template={
             `<a href='{{link}}' target='_blank' class='instafeed__item'>
             <img class='instafeed__item__background' src='{{image}}' />
