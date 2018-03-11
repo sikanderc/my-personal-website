@@ -8,8 +8,6 @@ import Blog from './Components/Blog'
 import About from './Components/About'
 import NavBar from './Components/NavBar'
 import Footer from './Components/Footer'
-import ScrollableAnchor from 'react-scrollable-anchor'
-import Instagram from './Components/Instagram'
 import FaceOfCompassion from './Components/FaceOfCompassion'
 
 import './App.css';
@@ -35,10 +33,8 @@ class App extends Component {
           <Work />
         <p className="heading" id="education">Education History</p>
           <Education />
-        <p className="heading" id="failedProjects">A Few Failed Projects...</p>
+        <p className="heading" id="failedProjects">A Few Projects That Didn't See the Light of Day...</p>
           <FailedProjects />
-        <p className="heading" id="instagram">Instagram</p>
-          <Instagram />
         <p className="heading" id="footer"></p>
           <Footer />
       </div>

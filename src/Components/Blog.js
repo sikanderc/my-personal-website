@@ -11,7 +11,7 @@ class Blog extends Component {
       <div className="Blog section flex-container">
         <div >
           <div className="row align-items-center featured" >
-            <a href="https://medium.com/@sikanderchowhan/blockchain-a-brief-introduction-500f72a0104d" target="_blank">
+            <a href="https://medium.com/@sikanderchowhan/blockchain-a-brief-introduction-500f72a0104d" target="_blank" rel="noopener noreferrer">
               <img src={blockchainIntro} className="thumb" alt="blockchainIntro" />
             </a>
           </div>
@@ -20,7 +20,7 @@ class Blog extends Component {
         <br/>
         <div >
           <div className="row align-items-center featured" >
-            <a href="https://medium.com/@sikanderchowhan/triple-entry-accounting-c-o-bitcoin-6c9de2402351" target="_blank">
+            <a href="https://medium.com/@sikanderchowhan/triple-entry-accounting-c-o-bitcoin-6c9de2402351" target="_blank" rel="noopener noreferrer">
               <img src={tripleEntry} className="thumb" alt="tripleEntry" />
             </a>
           </div>
@@ -29,7 +29,7 @@ class Blog extends Component {
         <br/>
         <div >
           <div className="row align-items-center featured" >
-            <a href="https://medium.com/@sikanderchowhan/big-data-an-introduction-9b9ce064a4fc" target="_blank">
+            <a href="https://medium.com/@sikanderchowhan/big-data-an-introduction-9b9ce064a4fc" target="_blank" rel="noopener noreferrer">
               <img src={bigDataIntro} className="thumb" alt="bigDataIntro" />
             </a>
           </div>
@@ -38,7 +38,7 @@ class Blog extends Component {
         <br/>
         <div >
           <div className="row align-items-center featured" >
-            <a href="https://medium.com/@sikanderchowhan/the-ills-of-big-data-and-the-blockchain-remedies-6e8ef2159a2a" target="_blank">
+            <a href="https://medium.com/@sikanderchowhan/the-ills-of-big-data-and-the-blockchain-remedies-6e8ef2159a2a" target="_blank" rel="noopener noreferrer">
               <img src={illsOfBigData} className="thumb" alt="illsOfBigData" />
             </a>
           </div>
@@ -47,7 +47,7 @@ class Blog extends Component {
         <br/>
         <div >
           <div className="row align-items-center featured" >
-            <a href="https://medium.com/@sikanderchowhan/new-money-new-problems-c4237e2d1ead" target="_blank">
+            <a href="https://medium.com/@sikanderchowhan/new-money-new-problems-c4237e2d1ead" target="_blank" rel="noopener noreferrer">
               <img src={newMoney} className="thumb" alt="newMoney" />
             </a>
           </div>

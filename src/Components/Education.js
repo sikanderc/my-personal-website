@@ -10,7 +10,9 @@ class Education extends Component {
         <div className="flatironBox" >
           <div className="section" >
             <div >
-              <img className="staticSize" src={flatironschool} />
+              <a href="https://flatironschool.com/" target="_blank" rel="noopener noreferrer">
+                <img className="staticSize" src={flatironschool} alt="flatironschool"/>
+              </a>
               <br/>
               <p className="flatironInfo" >Volunteer portal where users are able to donate their browser’s resources to mine for a cryptocurrency called Monero on behalf of the non-profit organization Muslim Americans for Compassion. Also, volunteer can keep track of events and information coming from the organization, and they are able to log their volunteer hours. Currently a work in progress. Will go live once complete!</p>
             </div>
@@ -18,8 +20,10 @@ class Education extends Component {
         </div>
         <div className="iusBox" >
           <div className="section" >
-            <div >
-              <img className="staticSize" src={IUS} />
+            <div>
+              <a href="https://ius.edu" target="_blank" rel="noopener noreferrer">
+                <img className="staticSize" src={IUS} alt="IUS"/>
+              </a>
               <br/>
               <p className="iusInfo" >Volunteer portal where users are able to donate their browser’s resources to mine for a cryptocurrency called Monero on behalf of the non-profit organization Muslim Americans for Compassion. Also, volunteer can keep track of events and information coming from the organization, and they are able to log their volunteer hours. Currently a work in progress. Will go live once complete!</p>
             </div>
@@ -27,8 +31,10 @@ class Education extends Component {
         </div>
         <div className="ALABox" >
           <div className="section" >
-            <div >
-              <img className="staticSize" src={ALA} />
+            <div>
+              <a href="http://amblardleatheratelier.com" target="_blank" rel="noopener noreferrer">
+                <img className="staticSize" src={ALA} alt="ALA"/>
+              </a>
               <br/>
               <p className="ALAInfo" >Volunteer portal where users are able to donate their browser’s resources to mine for a cryptocurrency called Monero on behalf of the non-profit organization Muslim Americans for Compassion. Also, volunteer can keep track of events and information coming from the organization, and they are able to log their volunteer hours. Currently a work in progress. Will go live once complete!</p>
             </div>
