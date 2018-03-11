@@ -68,7 +68,7 @@ class Work extends Component {
               <header >
                 <h3 className="h2 hover-underline inverse" >Hotel Management</h3>
               </header>
-              <p className="hotelInfo" >Over 5 years of experience in hotel operations and management.</p>
+              <p className="hotelInfo" >Over 5 years of experience in hotel operations and management. Studied business operation and management first hand under the guidance of hotelier and restauranteur, Arif Butt.</p>
             </div>
           </div>
           <br/>
