@@ -17,7 +17,6 @@ h1 {
 
 h2 {
   font-size: 50px;
-  line-height: 10px;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
 }
@@ -55,6 +54,14 @@ p {
   width: 100%;
   height: auto;
   transition: .5s ease;
+}
+
+.staticSize {
+  display: block;
+  width: 250px;
+  height: auto;
+  transition: .5s ease;
+  margin: auto;
 }
 
 .overlay {
@@ -186,6 +193,10 @@ p {
 }
 
 .Work {
+  background-color: #FFF;
+}
+
+.FailedProjects {
   background-color: #FFF;
 }
 

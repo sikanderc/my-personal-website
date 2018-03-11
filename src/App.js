@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Welcome from './Components/Welcome'
 import Projects from './Components/Projects'
 import Work from './Components/Work'
+import FailedProjects from './Components/FailedProjects'
 import Education from './Components/Education'
 import Blog from './Components/Blog'
 import About from './Components/About'
@@ -34,7 +35,9 @@ class App extends Component {
           <Work />
         <p className="heading" id="education">Education History</p>
           <Education />
-        <p className="heading" id="work">Instagram</p>
+        <p className="heading" id="failedProjects">A Few Failed Projects...</p>
+          <FailedProjects />
+        <p className="heading" id="instagram">Instagram</p>
           <Instagram />
         <p className="heading" id="footer"></p>
           <Footer />
