@@ -54,6 +54,8 @@ p {
   width: 100%;
   height: auto;
   transition: .5s ease;
+  max-width: 750px;
+  margin: auto;
 }
 
 .staticSize {
@@ -188,6 +190,14 @@ p {
   background-color: #FFF;
 }
 
+.About {
+  background-color: #FFF;
+}
+
+.about-item {
+  line-height: 25px;
+}
+
 .Blog {
   background-color: #FFF;
 }
@@ -196,19 +206,11 @@ p {
   background-color: #FFF;
 }
 
-.FailedProjects {
-  background-color: #FFF;
-}
-
 .Education {
   background-color: #FFF;
 }
 
-.About {
-  background-color: #FFF;
-}
-
-.Instagram {
+.FailedProjects {
   background-color: #FFF;
 }
 

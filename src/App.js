@@ -23,17 +23,17 @@ class App extends Component {
           <br/>
           <br/>
           <Welcome />
-        <p className="heading" id="projects">Recent Projects</p>
+        <p className="heading" id="projects"><strong>Recent Projects</strong></p>
           <Projects />
-        <p className="heading" id="about">About Me</p>
+        <p className="heading" id="about"><strong>About Me</strong></p>
           <About />
-        <p className="heading" id="blog">My Blog on Medium</p>
+        <p className="heading" id="blog"><strong>My Blog on Medium</strong></p>
           <Blog />
-        <p className="heading" id="work">Work History</p>
+        <p className="heading" id="work"><strong>Work History</strong></p>
           <Work />
-        <p className="heading" id="education">Education History</p>
+        <p className="heading" id="education"><strong>Education History</strong></p>
           <Education />
-        <p className="heading" id="failedProjects">A Few Projects That Didn't See the Light of Day...</p>
+        <p className="heading" id="failedProjects"><strong>A Few Projects That Didn't Make the Cut</strong></p>
           <FailedProjects />
         <p className="heading" id="footer"></p>
           <Footer />
