@@ -9,8 +9,7 @@
     "react-dom": "^16.2.0",
     "react-instafeed": "^0.4.0",
     "react-scripts": "1.1.1",
-    "react-scrollable-anchor": "^0.6.1",
-    "react-scrollbar": "^0.5.4"
+    "react-scrollable-anchor": "^0.6.1"
   },
   "scripts": {
     "start": "react-scripts start",

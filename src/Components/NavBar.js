@@ -22,7 +22,7 @@ class NavBar extends Component {
           <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li>
           <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
           <li className="nav-item"><a href="#projects" className="nav-link">Projects</a></li>
-          <li className="nav-item icon"><a href="javascript:void(0);" className="nav-link" onClick={this.toggleMenu}>&#9776;</a></li>
+          <li className="nav-item icon"><a href className="nav-link" onClick={this.toggleMenu}>&#9776;</a></li>
         </ul>
       </div>
     );
