@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Welcome from './Components/Welcome'
 import Projects from './Components/Projects'
 import Work from './Components/Work'
-import FailedProjects from './Components/FailedProjects'
+import Portfolio from './Components/Portfolio'
 import Education from './Components/Education'
 import Blog from './Components/Blog'
 import About from './Components/About'
@@ -33,8 +33,8 @@ class App extends Component {
           <Work />
         <p className="heading" id="education"><strong>Education History</strong></p>
           <Education />
-        <p className="heading" id="failedProjects"><strong>A Few Projects That Didn't Make the Cut</strong></p>
-          <FailedProjects />
+        <p className="heading" id="portfolio"><strong>Portfolio</strong></p>
+          <Portfolio />
         <p className="heading" id="footer"></p>
           <Footer />
       </div>

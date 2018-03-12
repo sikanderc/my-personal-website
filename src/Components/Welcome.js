@@ -15,7 +15,7 @@ class Welcome extends Component {
         <br/>
           <a href="https://linkedin.com/in/sikanderchowhan" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square i-hov" aria-hidden="true"/></a>  <a href="https://medium.com/@sikanderchowhan" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium i-hov" aria-hidden="true"/></a>  <a href="https://github.com/sikanderchowhan" target="_blank" rel="noopener noreferrer"><i className="fa fa-github i-hov" aria-hidden="true"/></a>  <a href="mailto:sikanderchowhan@gmail.com?Subject=Hello%20there!" target="_top"><i className="fa fa-envelope i-hov" aria-hidden="true"/></a>
         <br/>
-          <a href="https://drive.google.com/file/d/18ZkeUuTG-K6r5mRGLAuiP3OaeYENKhK5/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="button resume-button">Resume <i className="fa fa-file-pdf-o" aria-hidden="true"/></button></a>
+          <a href="https://drive.google.com/file/d/18ZkeUuTG-K6r5mRGLAuiP3OaeYENKhK5/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="button resume-button">Resume</button></a>
 
 
         </h1>

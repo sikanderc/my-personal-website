@@ -12,7 +12,7 @@ class Education extends Component {
             <a href="https://flatironschool.com/" target="_blank" rel="noopener noreferrer">
               <img className="staticSize" src={flatironschool} alt="flatironschool"/>
             </a>
-            <p className="flatironInfo" >Completed the Full-Stack Web development Intensive in December of 2017. Developed skills for Ruby, Ruby on Rails, ActiveRecord, Sinatra, JavaScript, React.js, Redux, Postgres, SQLite3, APIs, HTML, CSS, and jQuery.</p>
+            <p className="flatironInfo" >Completed the Full-Stack Web Development Intensive in December of 2017. Developed skills for Ruby, Ruby on Rails, ActiveRecord, Sinatra, JavaScript, React.js, Redux, Postgres, SQLite3, APIs, HTML, CSS, and jQuery.</p>
           </div>
         </div>
         <div className="iusBox" >
@@ -20,7 +20,7 @@ class Education extends Component {
             <a href="https://ius.edu" target="_blank" rel="noopener noreferrer">
               <img className="staticSize" src={IUS} alt="IUS"/>
             </a>
-            <p className="iusInfo" >Completed a Bachelor of Science degree in Business Administration and Management in the summer of 2017.</p>
+            <p className="iusInfo" >Completed a Bachelor of Science Degree in Business Administration and Management in the summer of 2017.</p>
           </div>
         </div>
         <div className="ALABox" >

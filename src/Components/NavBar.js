@@ -18,6 +18,7 @@ class NavBar extends Component {
         <ul className="NavBar" id="myNav">
           <li className="nav-item nav-name"><a href="#top" className="nav-link">sikander chowhan</a></li>
           <li className="nav-item nav-last"><a href="#footer" className="nav-link">Contact</a></li>
+          <li className="nav-item"><a href="#portfolio" className="nav-link">Portfolio</a></li>
           <li className="nav-item"><a href="#work" className="nav-link">Work</a></li>
           <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li>
           <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
