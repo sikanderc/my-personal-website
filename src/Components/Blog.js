@@ -4,6 +4,7 @@ import tripleEntry from "../Images/blog/tripleEntry10-2-17.png"
 import bigDataIntro from "../Images/blog/bigDataIntro10-23-17.png"
 import illsOfBigData from "../Images/blog/illsOfBigData11-13-17.png"
 import newMoney from "../Images/blog/newMoney3-4-18.png"
+import consensus from "../Images/blog/consensus3-11-18.png"
 
 class Blog extends Component {
   render() {
@@ -49,6 +50,15 @@ class Blog extends Component {
           <div className="row align-items-center featured" >
             <a href="https://medium.com/@sikanderchowhan/new-money-new-problems-c4237e2d1ead" target="_blank" rel="noopener noreferrer">
               <img src={newMoney} className="thumb" alt="newMoney" />
+            </a>
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <div >
+          <div className="row align-items-center featured" >
+            <a href="https://medium.com/@sikanderchowhan/one-consensus-algorithm-to-rule-them-all-fe5496f2802" target="_blank" rel="noopener noreferrer">
+              <img src={consensus} className="thumb" alt="consensus" />
             </a>
           </div>
         </div>
