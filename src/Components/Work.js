@@ -31,7 +31,7 @@ class Work extends Component {
                 <img className="staticSize" src={DHC} alt="DHC"/>
               </a>
               <br/>
-              <p className="dhcInfo" >I also served as the Chief Strategic officer for Doctors for Healthy Communities, the sister organization of Muslim Americans for Compassion. I worked to develop the initial framework for this organization. I worked closely with Dr. Muhammad Babar (President) in developing and communicating DHC’s strategic initiatives.</p>
+              <p className="dhcInfo" >I also served as the Chief Strategic Officer for Doctors for Healthy Communities, the sister organization of Muslim Americans for Compassion. I worked to develop the initial framework for this organization. I worked closely with Dr. Muhammad Babar (President) in developing and communicating DHC’s strategic initiatives.</p>
               <p className="macInfo2">This included paying close attention to drafting the proper vision and mission of the organization.</p>
               <p className="macInfo3">Also, I oversaw the development of the website. Because my tenure with this organization came towards the end of my time in Louisville, I was only able to see the organization through a few projects (like our free community health clinic).</p>
             </div>

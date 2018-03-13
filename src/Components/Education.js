@@ -36,7 +36,7 @@ class Education extends Component {
             <header >
               <h3 className="h2 hover-underline inverse" >Flint Racing Stables</h3>
             </header>
-            <p className="flintInfo" >Apprenticeship on thoroghbred horse training under the tutelage of Bernard S. Flint. Apprenticeship included working as a farm hand on a thoroughbred breeding farm where I was given the opportunity to help deliver a baby horse, a most unforgettable experience.</p>
+            <p className="flintInfo" >Apprenticeship on thoroughbred horse training under the tutelage of Bernard S. Flint. Apprenticeship included working as a farm hand on a thoroughbred breeding farm where I was given the opportunity to help deliver a baby horse, a most unforgettable experience.</p>
           </div>
         </div>
       </div>

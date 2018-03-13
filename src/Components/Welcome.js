@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Avatar from 'react-avatar';
-import sikander from '../Images/sikander.jpg'
+import sikiTux from '../Images/sikiTux.jpg'
 
 class Welcome extends Component {
 
@@ -8,7 +8,7 @@ class Welcome extends Component {
 
     return (
       <div className="Welcome section">
-        <div><Avatar className="profile-avatar" src={process.env.PUBLIC_URL + sikander} size={200} round={true} /></div>
+        <div><Avatar className="profile-avatar" src={process.env.PUBLIC_URL + sikiTux} size={200} round={true} /></div>
 
         <h1 className="welcome-intro">Sikander 'Siki' Chowhan is a web engineer, strategist, entreprenuer, and blockchain aficionado living in New York City.
         <br/>
