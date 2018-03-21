@@ -5,6 +5,7 @@ import bigDataIntro from "../Images/blog/bigDataIntro10-23-17.png"
 import illsOfBigData from "../Images/blog/illsOfBigData11-13-17.png"
 import newMoney from "../Images/blog/newMoney3-4-18.png"
 import consensus from "../Images/blog/consensus3-11-18.png"
+import DAO from "../Images/blog/DAO3-20-18.png"
 
 class Blog extends Component {
   render() {
@@ -59,6 +60,15 @@ class Blog extends Component {
           <div className="row align-items-center featured" >
             <a href="https://medium.com/@sikanderchowhan/one-consensus-algorithm-to-rule-them-all-fe5496f2802" target="_blank" rel="noopener noreferrer">
               <img src={consensus} className="thumb" alt="consensus" />
+            </a>
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <div >
+          <div className="row align-items-center featured" >
+            <a href="https://medium.com/tl-dr-blockchain-blog/dao-the-corporation-of-tomorrow-b424a5784d1" target="_blank" rel="noopener noreferrer">
+              <img src={DAO} className="thumb" alt="dao" />
             </a>
           </div>
         </div>
