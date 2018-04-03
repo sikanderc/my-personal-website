@@ -7,6 +7,8 @@ import newMoney from "../Images/blog/newMoney3-4-18.png"
 import consensus from "../Images/blog/consensus3-11-18.png"
 import DAO from "../Images/blog/DAO3-20-18.png"
 import onWeb from "../Images/blog/onWeb3-25-18.png"
+import whatsMoney from "../Images/blog/whatsMoney4-2-18.png"
+
 
 class Blog extends Component {
   render() {
@@ -79,6 +81,15 @@ class Blog extends Component {
           <div className="row align-items-center featured" >
             <a href="https://medium.com/tl-dr-blockchain-blog/on-web-3-0-a-collection-of-poetry-334dec1291b1" target="_blank" rel="noopener noreferrer">
               <img src={onWeb} className="thumb" alt="onWeb" />
+            </a>
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <div >
+          <div className="row align-items-center featured" >
+            <a href="https://medium.com/tl-dr-blockchain-blog/what-is-money-82be32efc72b" target="_blank" rel="noopener noreferrer">
+              <img src={whatsMoney} className="thumb" alt="whatsMoney" />
             </a>
           </div>
         </div>
