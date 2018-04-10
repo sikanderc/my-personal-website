@@ -20,7 +20,7 @@ class Education extends Component {
             <a href="https://ius.edu" target="_blank" rel="noopener noreferrer">
               <img className="staticSize" src={IUS} alt="IUS"/>
             </a>
-            <p className="iusInfo" >Completed a Bachelor of Science Degree in Business Administration and Management in the summer of 2017.</p>
+            <p className="iusInfo" >Completed a Bachelor of Science Degree in Business Administration in the summer of 2017.</p>
           </div>
         </div>
         <div className="ALABox" >

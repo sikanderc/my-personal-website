@@ -18,7 +18,7 @@ class Projects extends Component {
               <div className="col-md-5" >
                <img src={MACportal} className="thumb" alt="MAC" />
               </div>
-              <p className="macInfo" >Volunteer portal where users are able to donate their browser’s resources to mine for a cryptocurrency called Monero on behalf of the non-profit organization Muslim Americans for Compassion. Also, volunteers can keep track of events and information coming from the organization, and they are able to log their volunteer hours. Currently a work in progress. Will go live once complete!</p>
+              <p className="macInfo" >Volunteer portal where users are able to donate their browser’s resources to mine for a cryptocurrency called Monero on behalf of the nonprofit organization Muslim Americans for Compassion. Also, volunteers can keep track of events and information coming from the organization, and log their volunteer hours. Currently a work in progress. Will go live once complete!</p>
               <p><a href="https://github.com/sikanderc/mac-volunteer-portal" target="_blank" rel="noopener noreferrer">GitHub Repository - Frontend</a></p>
               <p><a href="https://github.com/sikanderc/mac-volunteer-portal-api" target="_blank" rel="noopener noreferrer">GitHub Repository - Backend</a></p>
               <div className="technologies" >#ruby, #javascript, #react, #redux</div>
@@ -36,7 +36,7 @@ class Projects extends Component {
               <div className="col-md-5" >
                <img src={ds3} className="thumb" alt="DS3" />
               </div>
-              <p className="ds3Info" >A game where a user is tasked with slaying as many zombie snowmen as possible, while avoiding obstacles. In collaboration with Matthew Gellert.</p>
+              <p className="ds3Info" >A game where users are tasked with slaying as many zombie snowmen as possible, while avoiding obstacles. In collaboration with Matthew Gellert.</p>
               <p><a href="https://github.com/mattgellert/downhill-skiing-snowman-slayer-front-end" target="_blank" rel="noopener noreferrer">GitHub Repository - Frontend</a></p>
               <p><a href="http://mattgellert/downhill-skiing-snowman-slayer-back-end" target="_blank" rel="noopener noreferrer">GitHub Repository - Backend</a></p>
               <div className="technologies" >#ruby, #javascript</div>
@@ -54,7 +54,7 @@ class Projects extends Component {
               <div className="col-md-5" >
                <img src={puertosupport} className="thumb" alt="PuertoSupport" />
               </div>
-              <p className="puertoInfo" >Web portal for individuals and organizations who intend to help those affected by the 2017 hurricane devastation in Puerto Rico. In collaboration with Elbin Keeppanasseril.</p>
+              <p className="puertoInfo" >Web portal for individuals and organizations that intend to help those affected by the 2017 hurricane devastation in Puerto Rico. In collaboration with Elbin Keeppanasseril.</p>
               <p><a href="https://github.com/elbincodes/puerto_rico_support" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
               <div className="technologies" >#ruby, #rubyOnRails</div>
             </div>

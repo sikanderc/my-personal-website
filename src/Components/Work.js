@@ -45,7 +45,7 @@ class Work extends Component {
               </a>
               <br/>
               <p className="LICInfo">I served a two year term as a Board Member of this religious institution. I was elected by community members and became the Treasurer during the first year of my term, spending countless hours working on improving the Center and developing systems for seamless day-to-day operation.</p>
-              <p className="LICInfo2">One huge issue was that no one had taken the time to develop the organizaitonal systems so every time new people assumed board positions, they were forced to start from scratch, severely impeding progress at the Center.</p>
+              <p className="LICInfo2">One huge issue was that no one had taken the time to develop the organizational systems so every time new people assumed board positions, they were forced to start from scratch, severely impeding progress at the Center.</p>
               <p className="LICInfo3">I spearheaded the adoption of online systems to facilitate the seamless transition of members, allowing for progress to be built upon rather than having to be built up over and over again. During my tenure as Board Member, we experienced a terrible vandalization of our property, but we were also lucky enough to experience the most beautiful interfaith gathering in response to it. Hundreds of people of various backgrounds and faiths came together to help restore the Center to it's previous distinction. This brief video details the event. I am quoted towards the end of the video.</p>
               <iframe width="auto" src="https://www.youtube.com/embed/CPdMOaD8a9s" frameBorder="0" allowFullScreen title="centerCleanup"></iframe>
             </div>
