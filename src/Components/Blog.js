@@ -8,6 +8,7 @@ import consensus from "../Images/blog/consensus3-11-18.png"
 import DAO from "../Images/blog/DAO3-20-18.png"
 import onWeb from "../Images/blog/onWeb3-25-18.png"
 import whatsMoney from "../Images/blog/whatsMoney4-2-18.png"
+import whatsSharding from "../Images/blog/whatsSharding4-23-18.png"
 
 
 class Blog extends Component {
@@ -90,6 +91,15 @@ class Blog extends Component {
           <div className="row align-items-center featured" >
             <a href="https://medium.com/tl-dr-blockchain-blog/what-is-money-82be32efc72b" target="_blank" rel="noopener noreferrer">
               <img src={whatsMoney} className="thumb" alt="whatsMoney" />
+            </a>
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <div >
+          <div className="row align-items-center featured" >
+            <a href="https://medium.com/tl-dr-blockchain-blog/whats-sharding-beb7499db288" target="_blank" rel="noopener noreferrer">
+              <img src={whatsSharding} className="thumb" alt="whatsSharding" />
             </a>
           </div>
         </div>
