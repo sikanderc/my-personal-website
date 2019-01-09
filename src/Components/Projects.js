@@ -18,7 +18,7 @@ class Projects extends Component {
               <div className="col-md-5" >
                <img src={MACportal} className="thumb" alt="MAC" />
               </div>
-              <p className="macInfo" >Volunteer portal where users are able to donate their browser’s resources to mine for a cryptocurrency called Monero on behalf of the nonprofit organization Muslim Americans for Compassion. Also, volunteers can keep track of events and information coming from the organization, and log their volunteer hours. Currently a work in progress. Will go live once complete!</p>
+              <p className="macInfo" >Volunteer portal where users are able to donate their browser’s resources to mine for a cryptocurrency called Monero on behalf of the nonprofit organization Muslim Americans for Compassion. Also, volunteers can keep track of events and information coming from the organization, and log their volunteer hours.</p>
               <p><a href="https://github.com/sikanderc/mac-volunteer-portal" target="_blank" rel="noopener noreferrer">GitHub Repository - Frontend</a></p>
               <p><a href="https://github.com/sikanderc/mac-volunteer-portal-api" target="_blank" rel="noopener noreferrer">GitHub Repository - Backend</a></p>
               <div className="technologies" >#ruby, #javascript, #react, #redux</div>

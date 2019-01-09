@@ -10,7 +10,7 @@ class Welcome extends Component {
       <div className="Welcome section">
         <div><Avatar className="profile-avatar" src={process.env.PUBLIC_URL + sikiTux} size={200} round={true} /></div>
 
-        <h1 className="welcome-intro">Sikander 'Siki' Chowhan is a web engineer, strategist, entreprenuer, and blockchain aficionado living in New York City.
+        <h1 className="welcome-intro">Sikander 'Siki' Chowhan is a web engineer, strategist, entreprenuer, and creative director living in New York City.
         <br/>
         <br/>
           <a href="https://linkedin.com/in/sikander-chowhan" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square i-hov" aria-hidden="true"/></a>  <a href="https://medium.com/@sikanderchowhan" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium i-hov" aria-hidden="true"/></a>  <a href="https://github.com/sikanderc" target="_blank" rel="noopener noreferrer"><i className="fa fa-github i-hov" aria-hidden="true"/></a>  <a href="mailto:me@sikanderc.com?Subject=About%20That%20Website..." target="_top"><i className="fa fa-envelope i-hov" aria-hidden="true"/></a>
